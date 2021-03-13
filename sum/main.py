@@ -12,7 +12,7 @@ def a():
     n2=request.form['num2']
     x=float(n1)
     y=float(n2)
-    r=x*y
+    r=x+y
     r=str(r)
     return r
 
