@@ -1,1 +1,2 @@
-
+service: my-second-app
+runtime: python39
