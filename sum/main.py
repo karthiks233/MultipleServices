@@ -23,13 +23,14 @@ def a():
         "boolean_test" : True}
 
     resp=requests.post(url,json=data1)
-    return resp.text
+    r
     n1=request.form['num1']
     n2=request.form['num2']
     x=float(n1)
     y=float(n2)
     r=x+y
     r=str(r)
+    r=r+" "+"\n"+resp.text
     return r
 
 
