@@ -1,0 +1,7 @@
+swagger: "2.0"
+info:
+  description: "A simple Google Cloud Endpoints API example."
+  title: "Endpoints Example"
+  version: "1.0.0"
+host: "folk-dev-come-db.appspot.com"
+# [END swagger]
